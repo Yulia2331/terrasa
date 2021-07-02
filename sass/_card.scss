@@ -1,0 +1,111 @@
+.goods{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goods-card {
+    position: relative;
+    max-width: 323px;
+}
+.hit-lable {
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+.goods-card__title {
+    display: block;
+    height: 63px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $light-black;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 9px;
+}
+.goods-card__descr-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.goods-card__descr-item:last-child {
+    margin-bottom: 0;
+}
+.goods-card__descr-title {
+    display: block;
+    font-weight: 300;
+    color: $light-black;
+    position: relative;
+    margin-right: 16px;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 40%;
+        right: -10px;
+        width: 4px;
+        height: 4px;
+        background: $pr;
+        border-radius: 100%;
+    }
+}
+.goods-card__descr-text {
+    font-weight: normal;
+    color: $text-light;
+}
+.goods-card__price-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.goods-card__btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.goods-card__wish {
+    background: url(../img/icon/heart.svg) center no-repeat;
+}
+.goods-card__comparison {
+    background: url(../img/icon/comparison.svg) center no-repeat;
+    margin-left: 22px;
+}
+.goods-card__cart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $des url(../img/icon/cart-des.svg) 30% 40% no-repeat;
+    color: $text-light;
+}
+.goods-card__cart:hover {
+    background: $sec url(../img/icon/cart.svg) 30% 40% no-repeat;
+    color: $pr;
+}
+.services__block {
+    display: flex;
+    justify-content: space-between;
+}
+.services__card {
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid $text-light;
+    flex-basis: 31%;
+}
+.services__title-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+.services__icon {
+    margin-right: 22px;
+}
+.services__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: $light-black;
+}
+.services__link {
+    color: $pr;
+}

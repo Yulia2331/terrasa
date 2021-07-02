@@ -1,0 +1,162 @@
+.header{
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+}
+.header-top{
+    border-bottom: 1px solid $des;
+}
+.header__top-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.select-geo {
+    display: flex;
+    align-items: center;
+}
+.select-geo__icon {
+    display: block;
+    margin-right: 8px;
+}
+.select-geo__header {
+    display: flex;
+}
+.select-geo__text {
+    margin-right: 6px;
+}
+.header__business-hours, .footer__business-hours {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+.business-hours__icon {
+    margin-left: 15px;
+}
+.business-hours {
+    display: flex;
+    margin-left: 11px;
+}
+.business-hours__item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.business-hours__item:last-child {
+    margin-right: 0;
+}
+.business-hours__item-title {
+    color: $light-black;
+}
+.business-hours__item-descr {
+    display: block;
+    color: $text-light;
+    padding-top: 2px;
+    margin-left: 4px;
+}
+.header-info__link {
+    color: $text-light;
+}
+.header-info__link:first-child {
+   margin-right: 40px;
+}
+.header-bottom {
+    border-bottom: 1px solid $des;
+    padding: 30px 0;
+}
+.header-bottom__wrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cataloge-btn {
+    background: $pr;
+    color: #fff;
+}
+.cataloge-btn__icon {
+    margin-right: 13px;
+}
+.header-bottom__nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header-bottom__nav-item {
+    padding: 0 20px;
+    border-right: 1px solid $des;
+}
+.header-bottom__nav-item:first-child {
+    border-left: 1px solid $des;
+}
+.header-bottom__nav-link {
+    color: $light-black;
+}
+.header-bottom__btns {
+    display: flex;
+    align-items: center;
+}
+.header-bottom__btns-item {
+    display: flex;
+    align-items: center;
+    margin: 0 21px;
+}
+.header-bottom__btns-text {
+    color: $light-black;
+    margin-left: 7px;
+}
+.callorder-btn {
+    background: $sec;
+    color: $pr;
+}
+.cataloge__nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 36px 0;
+    background: #fff;
+    margin-top: 74px;
+    display: flex;
+    max-height: 460px;
+}
+.cataloge-nav {
+    list-style: none;
+    border-right: 1px solid $des;
+}
+.cataloge-nav__item {
+    border-bottom: 1px solid $des;  
+}
+.cataloge-nav__item:last-child {
+    border-bottom: none;  
+}
+.cataloge-nav__link {
+    display: block;
+    color: $text-light;
+    padding: 15px 46px;
+}
+.cataloge-nav__item-active .cataloge-nav__link, .cataloge-nav__link:hover{
+    color: $pr;
+}
+.cataloge-nav-more{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.cataloge-nav-more__item {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.cataloge-nav-more__title {
+    display: block;
+    margin-bottom: 15px;
+    color: $red;
+}
+.cataloge-nav-more__link {
+    display: block;
+    font-weight: 300;
+    color: $light-black;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,177 @@
+.banner{
+    height: 700px;
+    width: 100%;
+    background: $des;
+}
+.about__content {
+    display: flex;
+}
+.about__bg {
+    margin-right: 100px;
+}
+.about__block {
+    margin-top: 10px;
+}
+.about__title {
+    position: relative;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    color: $light-black;
+    margin-bottom: 50px;
+}
+.about__title-srong {
+    font-weight: normal;
+}
+.about__market {
+    display: flex;
+    margin-bottom: 50px;
+}
+.about__market-list {
+    list-style: none;
+}
+.about__market-list:first-child {
+    margin-right: 54px;
+}
+.about__market-item {
+    color: $text-light;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 16px;
+        width: 16px;
+        background: url(../img/icon/badge-check.svg) center no-repeat;
+    }
+}
+.about__successful {
+  transform: translateX(-160px);
+  border-radius: 5px 5px 5px 0px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+}
+.about__successful-masck{
+    position: absolute;
+    top: -5%;
+    left: 0;
+    height: 105%;
+    width: 100%;
+    filter: blur(40px);
+    background: rgba(255, 255, 255, 0.8);
+}
+.about__successful-block {
+    position: relative;
+    z-index: 10;
+}
+.about__successful-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.advantages {
+    background: $des;
+    padding: 100px 0;
+}
+.advantages__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.advantages__item {
+    flex-basis: 48%;
+    border-bottom: 1px solid $text-light;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.advantages__item-title {
+    margin-bottom: 30px;
+}
+.advantages__item-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: $light-black;
+}
+.warranty-delivery{
+    background: linear-gradient(90deg, #EC4E20 33.33%, #FFFFFF 33.34%);
+}
+.warranty-delivery__wrap {
+   display: flex;
+}
+.warranty {
+    background: $red;
+    color: #fff;
+    padding: 100px 0;
+}
+.warranty-title {
+    color: #fff;
+}
+.warranty__content {
+    width: 446px;
+}
+.warranty__item {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+.warranty__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.warranty__text {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    max-width: 396px;
+}
+.delivery {
+    background: #fff;
+    padding-top: 100px;
+    padding-left: 50px;
+    position: relative;
+}
+.care-img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+}
+.delivery__text {
+    display: block;
+    border-bottom: 1px solid $des;
+    margin-left: -50px;
+    padding-left: 50px;
+}
+.delivery__text .delivery-text{
+    display: block;
+    padding-bottom: 35px;
+}
+.delivery-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: $light-black;
+}
+.delivery-text__sronge {
+    font-weight: normal;
+}
+.delivery-care {
+    margin-top: 43px;
+}
+.delivery-care__title {
+    margin-bottom: 30px;
+}
+.delivery-care__title-black {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

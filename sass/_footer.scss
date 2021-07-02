@@ -1,0 +1,115 @@
+.footer-top {
+    background: $des;
+    padding: 100px 0;
+}
+.footer-top__title{
+    margin-bottom: 50px;
+}
+.footer-top__content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top__left {
+    margin-right: 116px;
+}
+.footer-top__descr {
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.footer__pay {
+    display: flex;
+}
+.footer__pay-list {
+    list-style: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer__pay-list:first-child {
+    margin-right: 50px;
+}
+.footer__pay-item {
+    color: $light-black;
+    margin-bottom: 18px;
+}
+.footer-form {
+    width: 100%;
+    max-width: 721px;
+}
+.footer-form__input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-form__input {
+    flex-basis: 46%;
+}
+.footer-form__input-comm{
+    width: 100%;
+    flex-basis: 100%;
+}
+.footer-form__input-group-bottom{
+    align-items: center;
+    margin-top: 60px;
+}
+.footer-form__checkbox {
+    position: relative;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10;
+    margin-right: -15px;
+}
+.footer-form__check-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $light-black;
+    position: relative;
+    padding-left: 24px;
+    z-index: 1;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon/check.svg) center no-repeat;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon/check-checked.svg) center no-repeat;
+        opacity: 0;
+    }
+}
+.footer-form__checkbox:hover ~.footer-form__check-text::before{
+    background: url(../img/icon/check-hover.svg) center no-repeat;
+}
+.footer-form__checkbox:checked ~.footer-form__check-text::after{
+    opacity: 1;
+}
+.footer-form__btn {
+    flex-basis: 46%;
+}
+.footer-bottom{
+    background: #000;
+    padding: 50px 0;
+}
+.footer-bottom__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .select-geo__text{
+    color: #fff;
+}
+.footer__business-hours .business-hours__item-title{
+    color: #fff;
+}
